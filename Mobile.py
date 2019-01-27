@@ -7,6 +7,7 @@ import random
 import json
 import aiohttp
 import datetime
+import os
 from discord.ext.commands.cooldowns import BucketType
 
 
