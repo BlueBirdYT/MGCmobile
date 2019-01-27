@@ -942,4 +942,4 @@ async def remind(ctx, time=None, *,remind=None):
     await client.send_message(ctx.message.author, "Reminder: {}".format(remind))
 
 
-client.run('NTM4NzM3ODgxOTc2NDA2MDc2.Dy8M1w.VYgHF9vpdqhueOUAzHi2I4hDv7c')
+client.run(os.getenv('Token'))
